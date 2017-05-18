@@ -592,7 +592,7 @@ hr {
   }
 }
 
-@media screen and (max-width:784px){
+@media screen and (max-width: 840px){
   .container .s-1 .x{
     visibility: visible;
   }
