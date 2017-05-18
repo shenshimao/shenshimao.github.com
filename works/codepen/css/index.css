@@ -212,3 +212,9 @@ text-shadow:0 0 30px #fff;
 	-webkit-transform: rotate(-45deg) translateY(-20px);
 	color:#fff;
 }
+/*适配*/
+@media screen and (max-width: 980px){
+	.left{
+		width:704px;
+	}
+}
