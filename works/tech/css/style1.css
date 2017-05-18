@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+body{
+	background:#0d1424 url(../images/body-bg.jpg) no-repeat center top;
+	background-size:cover;
+	font:0.875em/21px arial;
+}
+
+#wrap{
+	width:980px;
+	margin:0 auto;
+}
+header{
+	padding:34px 0;
+}
+nav{
+	background:#888;
+	padding-left:26px;
+	height:40px;
+	border-radius:7px;
+	box-shadow:1px 5px 5px rgba(0,0,0,0.5);
+}
+nav ul{
+	float:left;
+}
+nav li{
+	float:left;
+	padding-right:30px;
+	line-height:40px;
+}
+nav a{
+	color:#fff;
+	text-shadow:1px 2px 1px rgba(0,0,0,.5);
+}
+.search{
+	float:right;
+	padding:7px 10px 0 0;
+}
+.search input{
+	width:130px;
+	height:27px;
+	padding-left:10px;
+	line-height:27px;
+	border:0;
+	border-radius:4px;
+	font-family:arial;
+	color:#a9aaac;
+	transition:width 1s;
+}
+.search input:focus{width:150px;}
+#main{
+	width:980px;
+	padding-top:30px;
+}
+article{
+	width:600px;
+	float:left;
+	border-radius:7px;
+	background:#ffffff;
+	padding:35px;
+	 
+}
+article h3{
+	line-height:41px;
+	font-size:12px;
+}
+article p{
+	padding:20px 0 10px;
+	color:#666;
+}
+article img, article video, article embed{
+	width:100%;
+}
+article  h4{
+	line-height:40px;
+}
+article embed{
+	height:400px;
+}
+
+aside{
+	width:240px;
+	float:right;
+	border-radius:7px;
+}
+aside div{
+	border-radius:7px;
+	background:#ffffff;
+	padding:0 20px;
+	margin-bottom:27px;
+	box-shadow:1px 5px 5px rgba(0,0,0,0.5)
+}
+aside h3{
+	line-height:36px;
+}
+aside ul{
+	padding-bottom:10px;
+}
+aside li{
+	line-height:30px;
+	border-top:1px solid #eee;
+}
+footer{
+	text-align:center;
+	padding:15px 0 30px;
+}
+footer p{
+	color:#656668;
+}
+
+@media screen and (max-width:980px){
+	#wrap{
+		width:96%;
+		padding:0 2%;
+	}
+	#main{
+		width:100%;
+	}
+	article{
+		width:58%;
+	}
+	aside{
+		width:30%;
+	}
+}
+
+@media screen and (max-width:640px){
+	article{
+		width:80%;
+		padding:6% 10%;
+	}
+	aside{
+		width:100%;
+		padding-top:30px;
+	}
+	.search{
+		position:absolute;
+		top:75px;
+		right:0;
+	}
+	.search input{
+		width:75px;
+	}
+}
