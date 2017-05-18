@@ -510,7 +510,7 @@ hr {
     width: 840px;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 980px) {
   #skill_list {
     width: 420px;
   }
