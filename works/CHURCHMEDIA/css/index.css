@@ -1,489 +1,584 @@
 @charset "utf-8";
 /* CSS Document */
 /*样式重置开始*/
-*{
-	margin:0;
-	padding:0;
-	}
-li{
-	list-style:none;
-	}
-a{
-	text-decoration:none;
-	}
-input{
-	border:none;
-	}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
 /*样式重置结束*/
 /*header样式开始*/
-#header{
-	background-color:#000;
-	}
-.header_inner{
-	width:1285px;
-	height:108px;
-	margin:0 auto;
-	}
-.nav_left,.logo,.nav_right{
-	float:left;
-	}
-.header_inner ul{
-	padding-top:24px;
-	}
-.header_inner ul li{
-	float:left;
-	line-height:60px;
-	text-align:center;
-	font-family:"Arial";
-	font-size:18px;
-	text-transform:uppercase;
-	}
-.header_inner li a:hover{
-	color:#f8e026;
-	}
-.nav_left li{
-	border-right:1px solid #343434;
-	}
-.nav_right li{
-	border-left:1px solid #343434;
-	}
-.home{
-	width:116px;
-	color:#fff;
-	display:block;
-	}
-.services{
-	width:155px;
-	color:#fff;
-	display:block;
-	}
-.projects{
-	width:160px;
-	color:#fff;
-	display:block;
-	}
-.logo{
-	width:378px;
-	padding-top:39px;
-	padding-left:38px;
-	}
-.prices{
-	width:138px;
-	color:#fff;
-	display:block;
-	}
-.about{
-	width:127px;
-	color:#fff;
-	display:block;
-	}
-.quote{
-	width:167px;
-	color:#fff;
-	display:block;
-	}
+#header {
+    background-color: #000;
+}
+
+.header_inner {
+    width: 1285px;
+    height: 108px;
+    margin: 0 auto;
+}
+
+.nav_left, .logo, .nav_right {
+    float: left;
+}
+
+.header_inner ul {
+    padding-top: 24px;
+}
+
+.header_inner ul li {
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header_inner li a:hover {
+    color: #f8e026;
+}
+
+.nav_left li {
+    border-right: 1px solid #343434;
+}
+
+.nav_right li {
+    border-left: 1px solid #343434;
+}
+
+.home {
+    width: 116px;
+    color: #fff;
+    display: block;
+}
+
+.services {
+    width: 155px;
+    color: #fff;
+    display: block;
+}
+
+.projects {
+    width: 160px;
+    color: #fff;
+    display: block;
+}
+
+.logo {
+    width: 378px;
+    padding-top: 39px;
+    padding-left: 38px;
+}
+
+.prices {
+    width: 138px;
+    color: #fff;
+    display: block;
+}
+
+.about {
+    width: 127px;
+    color: #fff;
+    display: block;
+}
+
+.quote {
+    width: 167px;
+    color: #fff;
+    display: block;
+}
+
 /*header样式结束*/
 /*icons样式开始*/
-#icons{
-	width:900px;
-	height:29px;
-	margin:0 auto;
-	border-bottom:1px solid #ccc;
-	position:relative; 
-	}
-.icons_wrap{
-	width:100px;
-	background-color:#fff;
-	position:absolute;
-	left:400px;
-	top:16px;
-	}
-.icons_wrap a{
-	height:26px;
-	display:block;
-	background-image:url(../images/btn_twitter_facebook.png);
-	}
-.twitter{
-	width:27px;
-	background-position:left top;
-	float:left;
-	margin-left:16px;
-	}
-.facebook{
-	width:26px;
-	background-position:right top;
-	float:right;
-	margin-right:16px;
-	}
-.twitter:hover{
-	background-position:left bottom;
-	}
-.facebook:hover{
-	background-position:right bottom;
-	}
+#icons {
+    width: 900px;
+    height: 29px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.icons_wrap {
+    width: 100px;
+    background-color: #fff;
+    position: absolute;
+    left: 400px;
+    top: 16px;
+}
+
+.icons_wrap a {
+    height: 26px;
+    display: block;
+    background-image: url(../images/btn_twitter_facebook.png);
+}
+
+.twitter {
+    width: 27px;
+    background-position: left top;
+    float: left;
+    margin-left: 16px;
+}
+
+.facebook {
+    width: 26px;
+    background-position: right top;
+    float: right;
+    margin-right: 16px;
+}
+
+.twitter:hover {
+    background-position: left bottom;
+}
+
+.facebook:hover {
+    background-position: right bottom;
+}
+
 /*icons样式结束*/
 /*title样式开始*/
-#title{
-	width:1285px;
-	height:288px;
-	margin:0 auto;
-	}
-#title h1{
-	line-height:54px;
-	font-family:"Arial Black";
-	font-size:54px;
-	text-align:center;
-	padding-top:71px;
-	}
-#title p{
-	line-height:52px;
-	font-family:"Georgia";
-	font-size:22px;
-	text-align:center;
-	color:#616b62;
-	word-spacing:-2px;
-	}
-#title a{
-	font-weight:bold;
-	color:#000;
-	}
+#title {
+    width: 1285px;
+    height: 288px;
+    margin: 0 auto;
+}
+
+#title h1 {
+    line-height: 54px;
+    font-family: "Arial Black";
+    font-size: 54px;
+    text-align: center;
+    padding-top: 71px;
+}
+
+#title p {
+    line-height: 52px;
+    font-family: "Georgia";
+    font-size: 22px;
+    text-align: center;
+    color: #616b62;
+    word-spacing: -2px;
+}
+
+#title a {
+    font-weight: bold;
+    color: #000;
+}
+
 /*title样式结束*/
 /*banner样式开始*/
-#banner{
-	background:url(../images/banner_bg_02.jpg);
-	}
-.banner_inner{
-	width:1285px;
-	height:567px;
-	margin:0 auto;
-	background:url(../images/banner_top_bg_04.jpg) no-repeat center top;
-	padding-top:61px;
-	position:relative;
-	}
-.banner_left{
-	width:458px;
-	margin-left:64px;
-	height:567px;
-	float:left;
-	}
-.church{
-	padding-top:34px;
-	}
-.church h2{
-	line-height:43px;
-	font-family:"Arial Black";
-	font-size:34px;
-	padding-left:1px;
-	}
-.church P{
-	line-height:18px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#67656a;
-	letter-spacing:-1px;
-	}
-.church .we{
-	line-height:24px;
-	padding-top:22px;
-	letter-spacing:0.2px;
-	}
-.details{
-	line-height:59px;
-	font-family:"Arial Bold";
-	font-size:12px;
-	padding-left:1px;
-	font-weight:bold;
-	text-transform:uppercase;
-	}
-.banner_left ul li{
-	line-height:19px;
-	font-size:14px;
-	padding-left:34px;
-	font-family:"Georgia";
-	}
-.icon1 a,.icon2 a{
-	color:#000;
-	}
-.icon1{
-	background:url(../images/icon_type.png) no-repeat left center;
-	font-weight:bold;
-	margin-bottom:11px;
-	}
-.icon2{
-	background:url(../images/icon_url.png) no-repeat left center;
-	font-weight:bold;
-	margin-bottom:11px;
-	}
-.icon3{
-	height:19px;
-	background:url(../images/icon_details.png) no-repeat left center;
-	}
-.icon3 a{
-	color:#67656a;
-	}
-.banner_left_bot{
-	line-height:113px;
-	font-family:"Arial";
-	font-size:12px;
-	font-weight:bold;
-	text-transform:uppercase;
-	}
-.banner_left_bot a{
-	color:#000;
-	}	
-.banner_left .details{
-	line-height:59px;
-	font-family:"Arial Bold";
-	font-size:12px;
-	padding:7px 0 0 1px;
-	color:#000;
-	}
-.banner_right{
-	width:748px;
-	height:567px;
-	float:left;
-	background:url(../images/banner_left_bg_03.jpg);
-	text-align:center;
-	}
-.circle{
-	height:153px;
-	position:absolute;
-	left:220px;
-	bottom:-78px;
-	}
-.circle a{
-	width:153px;
-	height:153px;
-	display:block;
-	float:left;
-	margin-right:40px;
-	}
-.circle1:hover,.circle2:hover,.circle3:hover{
-	background-position:right top;
-	}
-.circle1{
-	background:url(../images/hover1-1f63e6a0e246b04ae673e0b3957a717a.png);
-	}
-.circle2{
-	background:url(../images/whites_chapel_thumb-5d88f7a1f71fa0925e1b16f0cbe46109.png);
-	}
-.circle3{
-	background:url(../images/hover_hr-0f49a62bfae65461f9e1d2020a1e4bd2.png);
-	}
-.circle4{
-	background:url(../images/hover_cc-8358c78264fe53e5b99d0e076be22fd3.png) right bottom;
-	}
+#banner {
+    background: url(../images/banner_bg_02.jpg);
+}
+
+.banner_inner {
+    width: 1285px;
+    height: 567px;
+    margin: 0 auto;
+    background: url(../images/banner_top_bg_04.jpg) no-repeat center top;
+    padding-top: 61px;
+    position: relative;
+}
+
+.banner_left {
+    width: 458px;
+    margin-left: 64px;
+    height: 567px;
+    float: left;
+}
+
+.church {
+    padding-top: 34px;
+}
+
+.church h2 {
+    line-height: 43px;
+    font-family: "Arial Black";
+    font-size: 34px;
+    padding-left: 1px;
+}
+
+.church P {
+    line-height: 18px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #67656a;
+    letter-spacing: -1px;
+}
+
+.church .we {
+    line-height: 24px;
+    padding-top: 22px;
+    letter-spacing: 0.2px;
+}
+
+.details {
+    line-height: 59px;
+    font-family: "Arial Bold";
+    font-size: 12px;
+    padding-left: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner_left ul li {
+    line-height: 19px;
+    font-size: 14px;
+    padding-left: 34px;
+    font-family: "Georgia";
+}
+
+.icon1 a, .icon2 a {
+    color: #000;
+}
+
+.icon1 {
+    background: url(../images/icon_type.png) no-repeat left center;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.icon2 {
+    background: url(../images/icon_url.png) no-repeat left center;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.icon3 {
+    height: 19px;
+    background: url(../images/icon_details.png) no-repeat left center;
+}
+
+.icon3 a {
+    color: #67656a;
+}
+
+.banner_left_bot {
+    line-height: 113px;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner_left_bot a {
+    color: #000;
+}
+
+.banner_left .details {
+    line-height: 59px;
+    font-family: "Arial Bold";
+    font-size: 12px;
+    padding: 7px 0 0 1px;
+    color: #000;
+}
+
+.banner_right {
+    width: 748px;
+    height: 567px;
+    float: left;
+    background: url(../images/banner_left_bg_03.jpg);
+    text-align: center;
+}
+
+.circle {
+    height: 153px;
+    position: absolute;
+    left: 220px;
+    bottom: -78px;
+}
+
+.circle a {
+    width: 153px;
+    height: 153px;
+    display: block;
+    float: left;
+    margin-right: 40px;
+}
+
+.circle1:hover, .circle2:hover, .circle3:hover {
+    background-position: right top;
+}
+
+.circle1 {
+    background: url(../images/hover1-1f63e6a0e246b04ae673e0b3957a717a.png);
+}
+
+.circle2 {
+    background: url(../images/whites_chapel_thumb-5d88f7a1f71fa0925e1b16f0cbe46109.png);
+}
+
+.circle3 {
+    background: url(../images/hover_hr-0f49a62bfae65461f9e1d2020a1e4bd2.png);
+}
+
+.circle4 {
+    background: url(../images/hover_cc-8358c78264fe53e5b99d0e076be22fd3.png) right bottom;
+}
+
 /*banner样式结束*/
 /*main样式开始*/
-#main{
-	width:1285px;
-	height:513px;
-	margin:0 auto;
-	}
-.main_line{
-	width:872px;
-	height:135px;
-	margin:0 auto;
-	border-bottom:1px solid #dbdbdb;
-	}
-.main_txt{
-	height:330px;
-	padding-left:50px;
-	padding-top:47px;
-	}
-.simple{
-	width:425px;
-	float:left;
-	}
-.simple h2,.audience h2{
-	line-height:54px;
-	font-family:"Arial Bold";
-	font-size:31px;
-	}
-.simple p,.audience p{
-	line-height:24px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#68615b;
-	margin-bottom:21px;
-	}
-.main_txt a{
-	width:180px;
-	display:block;
-	line-height:45px;
-	font-family:"Arial Regular";
-	font-size:13px;
-	text-align:center;
-	font-weight:bold;
-	background-color:#fdfdfd;
-	border:1px solid #cdcdcd;
-	color:#000;
-	text-transform:uppercase;
-	}
-.audience{
-	float:left;
-	}
+#main {
+    width: 1285px;
+    height: 513px;
+    margin: 0 auto;
+}
+
+.main_line {
+    width: 872px;
+    height: 135px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.main_txt {
+    height: 330px;
+    padding-left: 50px;
+    padding-top: 47px;
+}
+
+.simple {
+    width: 425px;
+    float: left;
+}
+
+.simple h2, .audience h2 {
+    line-height: 54px;
+    font-family: "Arial Bold";
+    font-size: 31px;
+}
+
+.simple p, .audience p {
+    line-height: 24px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #68615b;
+    margin-bottom: 21px;
+}
+
+.main_txt a {
+    width: 180px;
+    display: block;
+    line-height: 45px;
+    font-family: "Arial Regular";
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fdfdfd;
+    border: 1px solid #cdcdcd;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.audience {
+    float: left;
+}
+
 /*main样式结束*/
 /*footer样式开始*/
-#footer{
-	width:1285px;
-	height:438px;
-	margin:0 auto;
-	}
-.footer_line{
-	width:871px;
-	height:10px;
-	background-color:#000;
-	margin:0 auto;
-	}
-.company{
-	width:310px;
-	padding-left:50px;
-	float:left;
-	}
-.company h3{
-	line-height:72px;
-	font-family:"Arial Bold";
-	font-size:25px;
-	}
-.company p{
-	line-height:25px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#6d665e;
-	margin-bottom:21px;
-	}
-.company a{
-	width:180px;
-	display:block;
-	line-height:45px;
-	font-family:"Arial Regular";
-	font-size:13px;
-	text-align:center;
-	font-weight:bold;
-	background-color:#fdfdfd;
-	border:1px solid #cdcdcd;
-	color:#000;
-	text-transform:uppercase;
-	}
-.contact{
-	width:304px;
-	float:left;
-	}
-.contact h3{
-	line-height:72px;
-	font-family:"Arial Bold";
-	font-size:25px;
-	}
-
-.contact P{
-	line-height:24px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#6d665e;
-	}
-.contact_top P{
-	font-size:16px;
-	}
-.contact h4{
-	line-height:35px;
-	font-family:"Arial";
-	font-size:12px;
-	text-transform:uppercase;
-	}
-.office{
-	padding-bottom:4px;
-	}
-.mailing{
-	padding-top:1px;
-	padding-bottom:12px;
-	}
-.contact li{
-	line-height:24px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#6d665e;
-	}
-.contact ul a{
-	color:#000;
-	font-weight:bold;
-	}
-.clients{
-	width:305px;
-	padding-top:1px;
-	float:left;
-	}
-.clients_top h3{
-	line-height:70px;
-	font-family:"Arial Bold";
-	font-size:25px;
-	padding-left:2px;
-	}
-.clients_top li{
-	line-height:21px;
-	font-family:"Georgia Regular";
-	font-size:15px;
-	}
-.footer_right{
-	float:left;
-	}
-.footer_right h3{
-	line-height:72px;
-	font-family:"Arial Bold";
-	font-size:25px;
-	}
-.footer_right p{
-	line-height:24px;
-	font-family:"Georgia";
-	font-size:15px;
-	color:#6d665e;
-	}
-.email_box{
-	width:281px;
-	height:47px;
-	padding-top:25px;
-	}
-.input_box{
-	width:214px;
-	height:41px;
-	line-height:41px;
-	font-family:"Arial";
-	font-size:20px;
-	color:#99989b;
-	border-top:3px solid #dbdbdb;
-	border-left:3px solid #dbdbdb;
-	border-bottom:3px solid #dbdbdb;
-	padding-left:17px;
-	float:left;
-	}
-.go{
-	width:47px;
-	height:47px;
-	background:url(../images/btn_go.png);
-	float:left;
+#footer {
+    width: 1285px;
+    height: 438px;
+    margin: 0 auto;
 }
-.footer_right_line{
-	width:281px;
-	height:33px;
-	border-bottom:1px solid #ccc;
-	margin-bottom:30px;
-	}
-.copy{
-	line-height:19px;
-	font-family:"Georgia Regular";
-	font-size:12px;
-	color:#6d665e;
-	}
-.footer_right li{
-	float:left;
-	line-height:44px;
-	color:#6d665e;
-	padding-right:13px;
-	}
-.footer_right ul a{
-	font-family:"Georgia Regular";
-	font-size:12px;
-	color:#000;
-	font-weight:bold;
-	}
+
+.footer_line {
+    width: 871px;
+    height: 10px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.company {
+    width: 310px;
+    padding-left: 50px;
+    float: left;
+}
+
+.company h3 {
+    line-height: 72px;
+    font-family: "Arial Bold";
+    font-size: 25px;
+}
+
+.company p {
+    line-height: 25px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #6d665e;
+    margin-bottom: 21px;
+}
+
+.company a {
+    width: 180px;
+    display: block;
+    line-height: 45px;
+    font-family: "Arial Regular";
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fdfdfd;
+    border: 1px solid #cdcdcd;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.contact {
+    width: 304px;
+    float: left;
+}
+
+.contact h3 {
+    line-height: 72px;
+    font-family: "Arial Bold";
+    font-size: 25px;
+}
+
+.contact P {
+    line-height: 24px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #6d665e;
+}
+
+.contact_top P {
+    font-size: 16px;
+}
+
+.contact h4 {
+    line-height: 35px;
+    font-family: "Arial";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.office {
+    padding-bottom: 4px;
+}
+
+.mailing {
+    padding-top: 1px;
+    padding-bottom: 12px;
+}
+
+.contact li {
+    line-height: 24px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #6d665e;
+}
+
+.contact ul a {
+    color: #000;
+    font-weight: bold;
+}
+
+.clients {
+    width: 305px;
+    padding-top: 1px;
+    float: left;
+}
+
+.clients_top h3 {
+    line-height: 70px;
+    font-family: "Arial Bold";
+    font-size: 25px;
+    padding-left: 2px;
+}
+
+.clients_top li {
+    line-height: 21px;
+    font-family: "Georgia Regular";
+    font-size: 15px;
+}
+
+.footer_right {
+    float: left;
+}
+
+.footer_right h3 {
+    line-height: 72px;
+    font-family: "Arial Bold";
+    font-size: 25px;
+}
+
+.footer_right p {
+    line-height: 24px;
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #6d665e;
+}
+
+.email_box {
+    width: 281px;
+    height: 47px;
+    padding-top: 25px;
+}
+
+.input_box {
+    width: 214px;
+    height: 41px;
+    line-height: 41px;
+    font-family: "Arial";
+    font-size: 20px;
+    color: #99989b;
+    border-top: 3px solid #dbdbdb;
+    border-left: 3px solid #dbdbdb;
+    border-bottom: 3px solid #dbdbdb;
+    padding-left: 17px;
+    float: left;
+}
+
+.go {
+    width: 47px;
+    height: 47px;
+    background: url(../images/btn_go.png);
+    float: left;
+}
+
+.footer_right_line {
+    width: 281px;
+    height: 33px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.copy {
+    line-height: 19px;
+    font-family: "Georgia Regular";
+    font-size: 12px;
+    color: #6d665e;
+}
+
+.footer_right li {
+    float: left;
+    line-height: 44px;
+    color: #6d665e;
+    padding-right: 13px;
+}
+
+.footer_right ul a {
+    font-family: "Georgia Regular";
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
 /*footer样式结束*/
+/*适配*/
+@media screen and (max-width: 980px){
+    html,body{
+        width: 1285px;
+    }
+}
