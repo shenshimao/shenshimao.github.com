@@ -479,3 +479,9 @@ input{
 	font-weight:bold;
 	}
 /*footer样式结束*/
+/*适配*/
+@media screen and (max-width: 980px){
+	html,body{
+		width: 1285px;
+	}
+}
