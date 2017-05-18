@@ -515,36 +515,7 @@ hr {
     width: 420px;
   }
 }
-@-webkit-media screen and (max-width: 1260px){
-  #skill_list {
-    width: 840px;
-  }
-}
-@-webkit-media screen and (max-width: 840px) {
-  #skill_list {
-    width: 420px;
-  }
-}
-@-moz-media screen and (max-width: 1260px){
-  #skill_list {
-    width: 840px;
-  }
-}
-@-moz-media screen and (max-width: 840px) {
-  #skill_list {
-    width: 420px;
-  }
-}
-@-o-media screen and (max-width: 1260px){
-  #skill_list {
-    width: 840px;
-  }
-}
-@-o-media screen and (max-width: 840px) {
-  #skill_list {
-    width: 420px;
-  }
-}
+
 /*@media (max-width: 800px) {
   .s-3 ul.portfolio li {
     width: 50% !important;
@@ -593,50 +564,6 @@ hr {
 }
 
 @media screen and (max-width: 840px){
-  .container .s-1 .x{
-    visibility: visible;
-  }
-  aside{
-    height: 100%;
-    width: 100px;
-    background: #e8eaef;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    -moz-box-shadow: 1px 0 0px 0 #cccccc;
-    -webkit-box-shadow: 1px 0 0px 0 #cccccc;
-    box-shadow: 1px 0 0px 0 #cccccc;
-    z-index: 0;
-  }
-
-  aside nav ul li {
-    color: #34495e;
-    border-bottom: 1px dashed #ccc;
-    opacity: 0.5;
-    font-size: 0.8rem;
-    float: none;
-    margin: 0;
-  }
-
-  aside nav ul li:hover, aside nav ul .current {
-    opacity: 1;
-    background: white;
-    -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-  }
-
-  .container {
-    margin-left: 100px;
-  }
-
-  .container .s-1 .y {
-    right: 7em;
-    left: auto;
-  }
-}@-webkit-media screen and (-webkit-max-width: 840px){
   .container .s-1 .x{
     visibility: visible;
   }
