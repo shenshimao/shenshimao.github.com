@@ -511,8 +511,39 @@ hr {
   }
 }
 @media screen and (max-width: 980px) {
+  .container .s-1 .centered img {
+    width: 80%;
+  }
+  .container .s-3 ul.portfolio {
+    width: 560px;
+  }
   #skill_list {
     width: 420px;
+    font-size:100%;
+  }
+  .skill_int {
+    font-size: 80%;
+    line-height: 130%;
+  }
+  .skill_int li {
+    font-size: 100%;
+  }
+  .skill_list_content {
+    margin-bottom: 100px;
+  }
+  .container .contact-tel {
+    float: none;
+  }
+  .container .contact-tel h2,.container .contact-tel p {
+    font-size: 1.2rem;
+  }
+  .container .contact-strip button {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  #toTop {
+    width: 68px;
+    height: 68px;
   }
 }
 
